@@ -30,3 +30,7 @@
 *.exe
 *.out
 *.app
+
+# Vslog
+*.log
+*.tlog
