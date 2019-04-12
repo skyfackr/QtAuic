@@ -153,7 +153,9 @@
   <ItemGroup>
     <ClInclude Include="jsoncpp.h" />
     <ClInclude Include="pch.h" />
+    <ClInclude Include="resource.h" />
     <ClInclude Include="settings.h" />
+    <ClInclude Include="welcome.h" />
     <ClInclude Include="yuandata.h" />
   </ItemGroup>
   <ItemGroup>
@@ -166,6 +168,13 @@
     </ClCompile>
     <ClCompile Include="QtAuic.cpp" />
     <ClCompile Include="settings.cpp" />
+    <ClCompile Include="welcome.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="QtAuic.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="resources\welcome.txt" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
