@@ -18,4 +18,7 @@ constexpr auto yuan_releasemode = "build";
 //外部设置文件名称
 constexpr auto yuan_settings_filename = "qtauic_setfile.json";
 
+//ui文件后缀
+constexpr auto yuan_aftername = ".ui";
+
 #endif // !SKYFACKR_QTAUIC_YUANDATA_H_

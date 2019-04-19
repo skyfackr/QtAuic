@@ -151,6 +151,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="fileuiced.h" />
     <ClInclude Include="jsoncpp.h" />
     <ClInclude Include="pch.h" />
     <ClInclude Include="resource.h" />
@@ -159,6 +160,7 @@
     <ClInclude Include="yuandata.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="fileuiced.cpp" />
     <ClCompile Include="jsoncpp.cpp" />
     <ClCompile Include="pch.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
