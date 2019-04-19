@@ -2,11 +2,46 @@
 //
 
 #include "pch.h"
-#include <iostream>
+#include"fileuiced.h"
+#include"welcome.h"
+#include"settings.h"
+using namespace std;
+using namespace qtauic;
+
 
 int main()
 {
-    
+	welcome();
+	AUIC_Settings_Getter setget;
+	AUIC_Settings settings;
+	if (setget.hasFile())
+	{
+		cout << "Setting file found!" << endl;
+		if (setget.analyse())
+		{
+			cout << "Load complete!" << endl;
+			settings = setget.get();
+			cout << "------data------" << endl;
+			cout << settings.road << endl << settings.listmode << endl;
+			for (set<string>::iterator i = settings.listdata.begin(); i != settings.listdata.end(); i++)
+			{
+				cout << *i << endl;
+			}
+			cout << "----------------" << endl;
+		}
+		else
+		{
+			cout << "Setting file have invaild_type.Loading normal settings....." << endl;
+		}
+	}
+	else cout << "Setting file not found.Loading normal settings....." << endl;
+	string errors;
+	if (!((file_start_uic(settings) =errors)!= "ok"))
+	{
+		cout << "Expection!QtAuic has been crashed because:" + errors << endl;
+	}
+	else cout << "QtAuic run completed!" << endl;
+	return 0;
 }
 
 // 运行程序: Ctrl + F5 或调试 >“开始执行(不调试)”菜单

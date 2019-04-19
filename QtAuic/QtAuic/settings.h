@@ -5,6 +5,7 @@
 #include"yuandata.h"
 #include"pch.h"
 #include<set>
+#include"settings.h"
 
 namespace qtauic
 {
@@ -25,6 +26,7 @@ namespace qtauic
 	
 	class AUIC_Settings_Getter//外部设置分析
 	{
+	public:
 		//查找外部设置文件是否存在
 		bool hasFile();
 
@@ -34,8 +36,8 @@ namespace qtauic
 		//输出设置信息
 		AUIC_Settings get();
 
-		AUIC_Settings_Getter();
-		~AUIC_Settings_Getter();
+		AUIC_Settings_Getter() {};
+		~AUIC_Settings_Getter() {};
 	};
 }
 

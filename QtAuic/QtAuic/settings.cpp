@@ -6,11 +6,10 @@ using namespace std;
 using namespace Json;
 using namespace qtauic;
 
-class AUIC_Settings_Getter
-{
+
 	AUIC_Settings setting;//…Ë÷√ ˝æ›
 
-	bool hasFile()
+	bool qtauic::AUIC_Settings_Getter::hasFile()
 	{
 		ifstream fout;
 		fout.open(yuan_settings_filename, ios::in);
@@ -18,7 +17,7 @@ class AUIC_Settings_Getter
 		return false;
 	}
 
-	bool analyse()
+	bool qtauic::AUIC_Settings_Getter::analyse()
 	{
 		ifstream fin;
 		string filedata;
@@ -52,8 +51,8 @@ class AUIC_Settings_Getter
 		return true;
 	}
 
-	AUIC_Settings get()
+	AUIC_Settings qtauic::AUIC_Settings_Getter::get()
 	{
 		return setting;
 	}
-};
+

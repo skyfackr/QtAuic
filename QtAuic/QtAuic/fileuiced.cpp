@@ -83,7 +83,9 @@ void uicer(string filename)//uicÖ´ĞĞÕß
 	headername.erase(headername.find_first_of('.'), 3);
 	headername += ".h";
 	string command = "uic " + filename + " >" + headername;
+	cout << "uicing " + filename << endl;
 	system((char*)command.c_str());
+	cout << filename + " uiced!" << endl;
 	return;
 }
 std::string qtauic::file_start_uic(AUIC_Settings settings)
