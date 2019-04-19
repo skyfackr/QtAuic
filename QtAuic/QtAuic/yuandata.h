@@ -13,7 +13,7 @@ constexpr auto yuan_settings_listmode = "black";
 constexpr auto yuan_versions = "1.0.0";
 
 //版本状态
-constexpr auto yuan_releasemode = "build";
+constexpr auto yuan_releasemode = "release";
 
 //外部设置文件名称
 constexpr auto yuan_settings_filename = "qtauic_setfile.json";

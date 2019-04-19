@@ -151,6 +151,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="debugcontroller.h" />
     <ClInclude Include="fileuiced.h" />
     <ClInclude Include="jsoncpp.h" />
     <ClInclude Include="pch.h" />
@@ -160,6 +161,7 @@
     <ClInclude Include="yuandata.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="debugcontroller.cpp" />
     <ClCompile Include="fileuiced.cpp" />
     <ClCompile Include="jsoncpp.cpp" />
     <ClCompile Include="pch.cpp">

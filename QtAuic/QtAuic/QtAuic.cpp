@@ -35,8 +35,8 @@ int main()
 		}
 	}
 	else cout << "Setting file not found.Loading normal settings....." << endl;
-	string errors;
-	if (!((file_start_uic(settings) =errors)!= "ok"))
+	string errors= file_start_uic(settings);
+	if (errors!= "ok")
 	{
 		cout << "Expection!QtAuic has been crashed because:" + errors << endl;
 	}
