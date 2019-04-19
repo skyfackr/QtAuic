@@ -3,6 +3,7 @@
 #include"welcome.h"
 #include"resource.h"
 #include<Windows.h>
+#include"yuandata.h"
 using namespace std;
 using namespace qtauic;
 #define welcomefile IDR_TXT4
@@ -18,6 +19,7 @@ void qtauic::welcome()
 	LPVOID fmemp = LockResource(fmem);
 	if (fmemp == NULL) return;
 	cout.write((char*)fmem, fsize);
+	cout << endl << "your versions:" << (string)yuan_versions+"_"+(string)yuan_releasemode << endl;
 	FreeResource(fmem);
 	return;
 }
