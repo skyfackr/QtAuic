@@ -31,8 +31,9 @@
 *.out
 *.app
 
+
+# Vslog
 *.log
 *.tlog
-*.db
-*.suo
-*.ipch
+*.VC.opendb
+
