@@ -180,6 +180,9 @@
   <ItemGroup>
     <Text Include="resources\welcome.txt" />
   </ItemGroup>
+  <ItemGroup>
+    <Image Include="resources\QTAUIC_logo.ico" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>

@@ -71,4 +71,9 @@
   <ItemGroup>
     <Text Include="resources\welcome.txt" />
   </ItemGroup>
+  <ItemGroup>
+    <Image Include="resources\QTAUIC_logo.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+  </ItemGroup>
 </Project>
