@@ -10,7 +10,7 @@
 *warning:It is necessary to add the corresponding uic.exe into the system variables before using it, otherwise it may cause unknown errors. At present, considering the usage situation, it is not intended to repair it.If you really need to use it, please submit issue to inform the author that someone needs it.</small>
 <br><br>
 <big>语言/Language:<h3>中文</h3>  <h3>English</h3></big><br>
-<a name="chinese"></a>
+<br><br><h6>中文</h6>
 欢迎使用QtAuic！
 
 本程序如题所见，可以用于在Qt项目编译前自动更新你的所有ui_xxx.h，主要为了vs环境下使用
@@ -53,7 +53,7 @@
 
 5. <a herf="https://skyfackr.github.io/cdn/github_project/QtAuic/simple_qtauic_setfile.json">样例</a>
 
-<a name="english"></a>
+<br><br><h6>English</h6>
 
 Welcome to use this!
 
