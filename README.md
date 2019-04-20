@@ -51,7 +51,7 @@
    
 4. 注意：三个设置目前版本一个都不能少，否则会转换成默认设置，可能在后续版本修复
 
-5. <a herf="https://skyfackr.github.io/cdn/github_project/QtAuic/simple_qtauic_setfile.json">样例</a>
+5. 样例:https://skyfackr.github.io/cdn/github_project/QtAuic/simple_qtauic_setfile.json
 
 <br><br><h6>English</h6>
 
