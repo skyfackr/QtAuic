@@ -9,7 +9,7 @@
 <br>
 *warning:It is necessary to add the corresponding uic.exe into the system variables before using it, otherwise it may cause unknown errors. At present, considering the usage situation, it is not intended to repair it.If you really need to use it, please submit issue to inform the author that someone needs it.</small>
 <br><br>
-<h3><big>语言/Language:<a herf="#chinese">中文</a>  <a herf="#english">English</a></big></h3><br>
+<big>语言/Language:<h3>中文</h3>  <h3>English</h3></big><br>
 <a name="chinese"></a>
 欢迎使用QtAuic！
 
